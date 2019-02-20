@@ -1,10 +1,10 @@
 class Book
   
-  attr_accessor :booktitle, :authorname, :pagecount
+  attr_accessor :author, :page_count
   attr_reader :title
   
   def initialize(title)
-    booktitle = title
+    booktitle = titles
   end
   
   def title
