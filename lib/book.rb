@@ -8,7 +8,7 @@ class Book
   end
   
   def title
-     return booktitle
+     return title
   end
 
 def turn_page
