@@ -7,9 +7,6 @@ class Book
     title = booktitle
   end
   
-  def title
-     return title
-  end
 
 def turn_page
   puts "Flipping the page...wow, you read fast!"
